@@ -1,0 +1,27 @@
+{
+    "name": "laravel-schema/intangibles",
+    "description": "Laravel Schema Package for Intangibles",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neftalí Yagua",
+            "email": "despacho@neftaliyagua.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSchema\\Intangibles\\IntangiblesServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "LaravelSchema\\Intangibles\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
